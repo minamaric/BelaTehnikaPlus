@@ -1,0 +1,902 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#meni {
+    position: relative;
+    left: 30%;
+}
+
+#meni li {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+#meni li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.1s;
+    padding-bottom: 15px;
+}
+
+#logo {
+    position: relative;
+    right: 45%;
+    text-decoration: none;
+    color: #e13142;
+    font-size: 18px
+}
+
+#logo li {
+    font-weight: bold;
+}
+
+#meni li a:hover {
+    color: #e13142;
+    border-bottom: 1px solid #e13142;
+    padding-bottom: 8px;
+}
+
+#section_cover {
+    height: 700px;
+}
+
+#naslovna_slika, #section_cover h4, #section_cover input {
+    position: relative;
+    bottom: 58%;
+    left: 15%;
+}
+
+#naslovna_slika {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#section_cover h4 {
+    font-size: 20px;
+}
+
+#section_cover h4 span {
+    color: #e13142;
+    font-weight: bold;
+}
+
+#section_cover input {
+    padding: 10px;
+    background-color: #e13142;
+    color: #fff;
+    border: 1px solid #e13142;
+    border-radius: 5px;
+    width: 15%;
+    transition: 0.2s;
+}
+
+#section_cover input:hover {
+    background-color: transparent;
+    color: #e13142;
+}
+
+#section_ponuda {
+    height: 600px;
+}
+
+#section_ponuda .col {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#section_ponuda .col:hover {
+    background-color: rgba(211, 211, 211, 0.16);
+    hr {
+        color: #e13142;
+    }
+}
+
+#section_ponuda a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#section_ponuda hr {
+    width: 170px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    padding: 1px;
+    transition: 0.2s;
+    opacity: 100%;
+}
+
+#ponuda-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slike_ponuda {
+    width: 200px;
+    height: auto;
+    margin: 0 50px;
+}
+
+#section_ponuda span, #o_nama_section span {
+    font-weight: bold;
+    color: #e13142;
+}
+
+#o_nama_section {
+    height: 700px;
+    background-color: rgba(211, 211, 211, 0.16);
+}
+
+#o_nama_section .col-6 p {
+    font-size: 18px;
+    position: relative;
+    left: 9%;
+}
+
+#o_nama_section .col-6 hr {
+    width: 25%;
+    padding: 2px;
+    color: #e13142;
+    opacity: 100%;
+    position: relative;
+    left: 22%;
+    top: 10px;
+}
+
+#o_nama_section .col-6 img {
+    position: relative;
+    left: 10%;
+}
+
+#pogodnosti {
+    height: 300px;
+    color: white;
+    background-color: #e13142;
+}
+
+#pogodnosti i {
+    color: #fff;
+    font-size: 80px;
+    margin: 0 auto;
+    position: relative;
+    left: 42%;
+}
+
+#section4 {
+    height: 400px;
+}
+
+#section4 #mejlSpan {
+    position: relative;
+    left: 40%;
+    top: 20px;
+}
+
+#mail {
+    margin-top: 80px;
+}
+
+#text{
+    width: 500px;
+    height: 60px;
+    margin-right: 30px;
+    border: 2px solid #e13142;
+    border-radius: 5px;
+}
+
+#button1 {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#button1:hover {
+    color: #fff;
+    background-color: #e13142;
+}
+
+#section4 h1 {
+    font-weight: bold;
+}
+
+#section4 span {
+    color: #e13142;
+    font-weight: bold;
+}
+
+#section4 p {
+    font-size: 20px;
+}
+
+footer {
+    height: 380px;
+    color: #000;
+    background-color: rgb(211, 211, 211, 0.16);
+}
+
+footer a {
+    text-align: center;
+    padding-top: 35px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    color: #e13142;
+}
+
+
+footer #uzivajte {
+    position: relative;
+    color: #000;
+    top: 10px;
+}
+
+footer span {
+    color: #e13142;
+    font-weight: bold;
+}
+
+footer h4 {
+    padding: 0 40px;
+    margin-bottom: 30px;
+}
+
+
+#prodavnica {
+    height: 80px;
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+
+#sviProizvodi img {
+    height: 200px;
+}
+
+#sviProizvodi {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sviProizvodi .dodaj_u_korpu {
+    transition: 0.2s;
+    padding: 7px 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: #e13142;
+    color: #fff;
+    border: 1px solid #e13142;
+}
+
+#prodavnica select:hover {
+    border: 1px solid #e13142;
+}
+
+#sviProizvodi .dodaj_u_korpu:hover {
+    border: 1px solid #e13142;
+    background-color: #fff;
+    color: #e13142;
+}
+
+#prodavnica input:hover {
+    border: 1px solid #e13142;
+}
+
+#meniispis p i {
+    color: #000;
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+}
+
+.klasaFilter {
+    height: 1000px;
+}
+
+.klasaFilterProd {
+    height: 200px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.err {
+    font-size: 16px;
+    color: red;
+    text-align: center;
+}
+
+.ok {
+    font-size: 16px;
+    color: green;
+    text-align: center;
+}
+
+a i {
+    font-size: 15px;
+    color: #000;
+}
+
+#section5 {
+    height: auto;
+}
+
+#section5 .form-group {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#ime, #adresa {
+    margin-left: 0;
+}
+
+#vrstaIsporuke {
+    border: none;
+}
+
+.uspesno {
+    color: green;
+}
+
+.greska {
+    color: red;
+}
+
+#prijaviSe {
+    width: 20%;
+    padding: 10px;
+    background-color: #e13142;
+    color: #fff;
+    border: 1px solid #e13142;
+    border-radius: 5px;
+    transition: 0.2s ease;
+    text-align: center;
+    margin: 20px auto;
+    right: 0;
+}
+
+#prijaviSe:hover {
+    background-color: #fff;
+    color: #e13142;
+    border: 1px solid #e13142;
+}
+
+.hidden {
+    display: none;
+    height: 0;
+    transition: visibility 0s, height 0.3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.naslov h1, span {
+    font-weight: bold;
+}
+
+#sviProizvodi .tekstProizvoda .detaljan_opis {
+    margin: 20px 0;
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    animation: fadeIn 0.5s ease forwards;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.zatvori {
+    margin-top: 20px;
+}
+
+.dugme_opis {
+    transition: 0.2s;
+    margin: 10px 0;
+    font-weight: normal;
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-bottom: 1px solid transparent;
+}
+
+#sviProizvodi .tekstProizvoda .detaljan_opis.active {
+    display: block;
+}
+
+
+.dugme_opis:hover {
+    color: #e13142;
+    border-bottom: 1px solid #e13142;
+}
+
+.slikaDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-xl-2, #divGrid {
+     display: grid;
+     place-items: center;
+     text-align: center;
+}
+
+#sviProizvodi .tekstProizvoda .zatvori {
+    background-color: #e13142;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#sviProizvodi .tekstProizvoda .zatvori:hover {
+    background-color: white;
+    color: #e13142;
+    border: 1px solid #e13142;
+}
+
+#tekstProizvoda2 {
+    width: 500px;
+}
+
+#tekstProizvoda2 p {
+    font-size: 14px;
+}
+
+#prod {
+    color: #e13142;
+}
+
+#footer_prodavnica {
+    position: relative;
+    top: 200px;
+}
+
+#footer_prijava {
+    position: relative;
+    top: 200px;
+}
+
+#prijava {
+    height: 500px;
+    transition: 0.2s;
+}
+
+#prijava h1 {
+    font-weight: bold;
+}
+
+#prijava span {
+    color: #e13142;
+}
+
+#prijava label, #login label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#prijavaDugme, #loginSe {
+    margin: 20px auto;
+    width: 25%;
+    padding: 8px;
+    background-color: #e13142;
+    border-radius: 5px;
+    border: 1px solid #e13142;
+    color: #fff;
+    transition: 0.2s;
+    position: relative;
+    right: 25%;
+}
+
+#prijavaDugme:hover, #loginSe:hover {
+    background-color: #fff;
+    color: #e13142;
+}
+
+.spanStil {
+    position: relative;
+    right: 15%;
+}
+
+#vrstaIsporuke {
+    border: 1px solid lightgray;
+}
+
+#vecPostojiNalog {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 165px;
+    transition: 0.2s;
+}
+
+#vecPostojiNalog:hover {
+    color: #e13142;
+}
+
+#loginForma {
+    display: none;
+}
+
+#loginSe {
+    position: relative;
+    top: 50px;
+    right: 25%;
+}
+
+#login {
+    margin: 0 auto;
+}
+
+#login h1 {
+    font-weight: bold;
+}
+
+#login h1 span {
+    color: #e13142;
+}
+
+#formaZaLogovanje {
+    position: relative;
+    left: 23%;
+}
+
+#loginh1 {
+    position: relative;
+    right: 28%;
+}
+
+#loginSe.stilDugme {
+    margin-right: 200px;
+}
+
+#loginSpan {
+    position: relative;
+    top: 20px;
+}
+
+#autor {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#autor h1 {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+
+#tekst {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+#biografija {
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+#tekst, #slika, #biografija {
+    height: 350px;
+    text-align: center;
+}
+
+#tekst, #biografija {
+    padding-top: 30px;
+}
+
+#slika img {
+    width: 70%;
+}
+
+#autor h3 {
+    color: #e13142;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#autor p {
+    font-size: 18px;
+    color: #000;
+}
+
+#biografija p {
+    line-height: 2em;
+}
+
+#autorFuter {
+    position: relative;
+    top: 100px;
+}
+
+#autor span {
+    color: #e13142;
+    font-weight: bold;
+}
+
+#imeK, #emailK {
+    width: 500px;
+}
+
+#kontaktDugme, #APdodaj {
+    width: 250px;
+    background-color: #e13142;
+    color: #fff;
+    position: relative;
+    left: 25%;
+    border: 1px solid #e13142;
+    transition: 0.2s;
+}
+
+#kontaktDugme:hover, #APdodaj:hover, #brisanjeKorisnika button:hover {
+    background-color: white;
+    color: #e13142;
+}
+
+#formaDodavanjeKorisnika {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#brisanjeKorisnika {
+    margin-bottom: 50px;
+}
+
+#brisanjeKorisnika select {
+    width: 180px;
+    padding: 5px;
+    border: 1px solid #e13142;
+    border-radius: 5px;
+}
+
+#brisanjeKorisnika button {
+    margin-left: 20px;
+    background-color: #e13142;
+    border-radius: 5px;
+    border: 1px solid #e13142;
+    transition: 0.2s;
+    color: white;
+    padding: 5px;
+}
+
+#pocetnaSpan, #pocetnaSpan a, #loginLinkSpan, #loginLinkSpan a {
+    color: black;
+    transition: 0.2s;
+}
+
+#pocetnaSpan a:hover, #pocetnaSpan a:hover, #loginLinkSpan:hover, #loginLinkSpan a:hover {
+    color: #e13142;
+}
+.cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 80%;
+    margin: 170px auto;
+    position: relative;
+    bottom: 100px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr {
+    transition: 0.2s;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.proizvodi-korpa {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.proizvod-korpa-item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.slika-proizvod {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.info-proizvod {
+    flex-grow: 1;
+}
+
+.ukupno-korpa {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.ukupno-korpa h2 {
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    background-color: red;
+    border-color: red;
+}
+
+.checkout-button {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.checkout-button:hover {
+    background-color: #0056b3;
+}
+
+.ukloni {
+    padding: 5px;
+    width: 80px;
+    border: 1px solid #e13142;
+    color: #fff;
+    background-color: #e13142;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.ukloni:hover {
+    background-color: transparent;
+    color: #e13142;
+}
+
+.bojaRedovi {
+    background-color: #F8F9FA;
+}
+
+#poseteTabela th {
+    font-weight: bold;
+}
+
+table {
+    margin-bottom: 10px;
+}
+
+table td {
+    border-bottom: 4px solid #F8F9FA;
+}
+
+#kupovinaForma .form-group {
+    margin: 20px 0;
+}
+
+#kupovinaForma button {
+    background-color: #e13142;
+    color: #fff;
+    border: 1px solid #e13142;
+    position: relative;
+    margin-top: 10px;
+    left: 25%;
+    transition: 0.2s;
+}
+
+#kupovinaForma button:hover {
+    background-color: white;
+    color: #e13142;
+}
+
+#kupovinaForma label {
+    margin-bottom: 5px;
+}
+
+.paginacija {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.paginacija .page-item {
+    margin: 0 5px;
+}
+
+.paginacija .page-link {
+    display: block;
+    padding:  5px 10px;
+    background-color: #e13142;
+    border: 2px solid #e13142;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.paginacija .page-link:hover {
+    background-color: #fff;
+    color: #e13142;
+}
+
+#labelBrisanjeKorisnika, #korisnik_id, #dugmeBrisanje {
+    position: relative;
+    left: 27%;
+}
+
+#adminProizvodi #slika {
+    height: 37px;
+}
+
+#dodaj {
+    width: 250px;
+    height: 40px;
+    background-color: #e13142;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    left: 15%;
+    border: 1px solid #e13142;
+    transition: 0.2s;
+}
+
+#dodaj:hover {
+    color: #e13142;
+    background-color: #fff;
+}

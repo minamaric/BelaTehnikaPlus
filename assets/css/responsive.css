@@ -1,0 +1,520 @@
+@media screen and (max-width: 2200px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        overflow-x: hidden;
+    }
+
+    #section_cover .slikaRez{
+        display: none;
+    }
+
+    #section_cover {
+        background-image: url("../img/naslovna1.jpg");
+        background-position: center;
+    }
+
+    #section_cover h1, #section_cover h4, #section_cover input {
+        top: 60%;
+        left: 20%;
+    }
+
+    #section_ponuda #ponuda-div img {
+        position: relative;
+        right: 5%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    #formaZaLogovanje {
+        width: 1400px;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    #section_cover h1, #section_cover h4, #section_cover input {
+        top: 60%;
+        left: 11%;
+    }
+    #prijava, #formaZaLogovanje {
+        width: 1100px;
+        margin: 0 auto;
+    }
+    #formaZaLogovanje {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1507px) {
+    #meni {
+        left: 20%;
+    }
+    #logo {
+        right: 40%;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .slike_ponuda {
+        width: 150px;
+        height: 150px;
+    }
+    #section_ponuda #ponuda-div img {
+        position: relative;
+        left: 10px;
+    }
+    #section_cover h1, #section_cover h4, #section_cover input {
+        position: relative;
+        bottom: 58%;
+        left: 15%;
+    }
+    #section_ponuda {
+        height: 550px;
+    }
+    #sviProizvodi .shop-item {
+        width: 20%;
+        position: relative;
+        left: 8%;
+    }
+    #sviProizvodi img {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1401px) {
+    #section_ponuda #ponuda-div .slike_ponuda {
+        position: relative;
+        left: -15px;
+    }
+    #section_cover h1, #section_cover h4, #section_cover input {
+        position: relative;
+        bottom: 58%;
+        left: 15%;
+    }
+    #section_ponuda {
+        height: 550px;
+    }
+    #section_ponuda #ponuda-div .col {
+        width: 250px;
+        height: 250px;
+    }
+    #sviProizvodi .shop-item {
+        left: 2%;
+    }
+    #sviProizvodi img {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    #meni {
+        left: 20%;
+    }
+    #logo {
+        right: 30%;
+    }
+    #o_nama_div .col-6 img {
+        width: 400px;
+    }
+    #section_ponuda .col{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    footer {
+        height: 800px;
+        width: 100%;
+    }
+    #section_ponuda .col{
+        width: 400px;
+        height: 400px;
+    }
+    #section_ponuda #ponuda-div img {
+        position: relative;
+        left: 15%;
+    }
+    #section_ponuda {
+        height: 1000px;
+    }
+    #sviProizvodi .shop-items {
+        flex: 0 0 25%;
+        max-width: 25%;
+        position: relative;
+        left: 7%;
+        padding: 0 20px;
+    }
+    #prijava, #formaZaLogovanje {
+        position: relative;
+        right: 10%;
+    }
+    #formaZaLogovanje {
+        margin-left: 50px;
+    }
+    #registracijaForma .col-xl-6{
+        width: 500px;
+    }
+    #vecPostojiNalog {
+        position: relative;
+        top: 40px;
+        left: 10%;
+    }
+    #meni li{
+        font-size: 13px;
+    }
+    #logo {
+        right: 30%;
+    }
+    #section_ponuda #ponuda-div .slike_ponuda {
+        position: relative;
+        left: 40px;
+    }
+    #section_ponuda {
+        height: 850px;
+    }
+    #section_ponuda #ponuda-div .col {
+        width: 350px;
+        height: 350px;
+    }
+    #tekst, #biografija {
+        border: none;
+    }
+    #tekst h3, #biografija h3 {
+        font-size: 18px;
+    }
+    #tekst p, #biografija p {
+        font-size: 16px;
+    }
+    #autor {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    #section_cover {
+        background-image: url("../img/naslovna2.jpg");
+    }
+    #section_cover h1, #section_cover h4, #section_cover input {
+        left: 10%;
+    }
+    #prijava {
+        position: relative;
+        left: -50px;
+    }
+    #registracijaForma {
+        position: relative;
+        left: 50px;
+    }
+    #vecPostojiNalog {
+        position: relative;
+        left: 150px;
+    }
+    #meni {
+        left: 20%;
+    }
+    #meni li {
+        font-size: 14px;
+    }
+    #logo {
+        right: 30%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    #section_cover h1, #section_cover h4, #section_cover input {
+        top: 80%;
+    }
+    #section_ponuda {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #ponuda-div {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #ponuda-div img {
+        position: relative;
+        left: 18%;
+    }
+    .slike_ponuda {
+        position: relative;
+        bottom: 0;
+    }
+    #ponuda-div .col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #sviProizvodi .shop-items {
+        flex: 0 0 35%;
+        max-width: 35%;
+        left: 0;
+        padding: 0;
+    }
+    #sviProizvodi .shop-item {
+        left: 0;
+    }
+    #sviProizvodi img {
+        width: 200px;
+        padding: 15px;
+    }
+    #registracijaForma .col-xl-6{
+        width: 500px;
+        position: relative;
+        right: 140px;
+    }
+    #prijava h1, #prijaviSe {
+        position: relative;
+        right: 140px;
+    }
+    #vecPostojiNalog {
+        position: relative;
+        top: 40px;
+        left: 0;
+    }
+    #prijava #prijavaSpan {
+        position: relative;
+        right: 12%;
+    }
+    #autor {
+        height: 1300px;
+    }
+    #autor .col-md-4 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    #autor .col-md-4 img {
+        width: 250px;
+        position: relative;
+        bottom: 30px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    #section_ponuda #ponuda-div .slike_ponuda {
+        position: relative;
+        left: 30px;
+    }
+    #sviProizvodi .shop-item {
+        width: 30%;
+    }
+    #sviProizvodi img {
+        width: 220px;
+    }
+    .slikaRez {
+        display: none;
+    }
+    #o_nama_section {
+        height: 800px;
+    }
+    #o_nama_div {
+        text-align: center;
+    }
+    #o_nama_div .col-6 {
+        position: relative;
+        left: 18%;
+    }
+    #o_nama_div hr {
+        text-align: center;
+    }
+    #o_nama_div h3 {
+        position: relative;
+        left: 15%;
+    }
+    #o_nama_section .col-6 hr {
+        left: 50%;
+    }
+    #o_nama_div .col-6 p {
+        position: relative;
+        left: 11%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    #o_nama_section {
+        height: 1000px;
+    }
+    #section_ponuda #ponuda-div .slike_ponuda {
+        position: relative;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #sviProizvodi .shop-item {
+        width: 80%;
+        top: 150px;
+    }
+    .slikaDiv {
+        position: relative;
+        left: 25px;
+    }
+    #prodavnica .col-md-4 {
+        margin: 15px 0;
+    }
+    #prodavnica .col-md-4 h5 {
+        position: relative;
+        bottom: 5px;
+    }
+    #sviProizvodi img {
+        position: relative;
+        right: 7%;
+    }
+    #prijava {
+        width: 800px;
+        height: 1000px;
+        position: relative;
+        right: 30%;
+    }
+    #prvaKolona, #drugaKolona {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    #registracijaForma {
+        margin-top: 50px;
+    }
+    #registracijaForma .form-group {
+        margin-bottom: 30px;
+    }
+    #pol {
+        margin: 0 70px;
+    }
+    #vecPostojiNalog {
+        top: 80px;
+        left: 180px;
+    }
+    #prijava h1, #prijaviSe {
+        position: relative;
+        right: 95px;
+    }
+    #o_nama_section {
+        height: 1100px;
+    }
+    #section_ponuda #ponuda-div .slike_ponuda {
+        position: relative;
+        left: -15px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #section_ponuda {
+        height: 1800px;
+    }
+    #section_ponuda #ponuda-div .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #section_ponuda #ponuda-div .slike_ponuda {
+        position: relative;
+        left: 25%;
+    }
+    #o_nama_section {
+        height: 1360px;
+    }
+    #pogodnosti {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #section_cover h1 {
+        font-size: 30px;
+    }
+    #section_cover h4 {
+        font-size: 15px;
+    }
+    #section_ponuda #ponuda-div .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        position: relative;
+        right: 12%;
+    }
+    #section_ponuda #ponuda-div .slike_ponuda {
+        position: relative;
+        left: 130px;
+    }
+    #ponuda-div h3 {
+        position: relative;
+        right: 5%;
+    }
+    #section_ponuda h1 {
+        position: relative;
+        right: 18%;
+    }
+    #o_nama_section {
+        height: 1000px;
+    }
+    #o_nama_div .col-6 {
+        position: relative;
+        left: 7%;
+    }
+    #o_nama_div hr {
+        text-align: center;
+    }
+    #o_nama_div h3 {
+        position: relative;
+        left: 7%;
+    }
+    #o_nama_section h1 {
+        position: relative;
+        right: 12%;
+    }
+    #o_nama_section .col-6 hr {
+        left: 50%;
+    }
+    #o_nama_div .col-6 p {
+        position: relative;
+        left: 11%;
+    }
+    #section4 .col-12 h1, p {
+        position: relative;
+        right: 15%;
+    }
+    #section5 #registracijaForma {
+        width: 80%;
+        position: relative;
+        left: 5%;
+    }
+    #pol {
+        position: relative;
+        right: 10%;
+    }
+    #autor #tekst, #autor #biografija {
+        position: relative;
+        left: 80px;
+    }
+    #autor h3 {
+        position: relative;
+        right: 80px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #o_nama_section {
+        height: 1200px;
+    }
+    #section4 {
+        height: 400px;
+    }
+    #section4 p {
+        font-size: 16px;
+    }
+    #section4 #mail {
+        width: 60%;
+        margin-left: 30px;
+    }
+    #section4 #button1 {
+        width: 40%;
+        padding: 10px;
+    }
+}
