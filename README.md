@@ -46,3 +46,15 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/project-name.git
+
+   Set up the database using phpMyAdmin and import the required SQL file (if applicable).
+
+2. Set up the database using phpMyAdmin and import the required SQL file (if applicable).
+
+3. Set up your environment configuration (e.g., in a .env file).
+
+4. Start the local server (using XAMPP, WAMP, or another PHP server):
+      php -S localhost:8000
+
+5. Access the website in your browser at localhost:8000.
+
